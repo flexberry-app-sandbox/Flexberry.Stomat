@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-stomat-запись-e",
+  "editForm": "i-i-s-stomat-запись-e",
+  "external": false,
+  "caption": "Запись",
+  "name": "IISStomatЗаписьL",
+  "className": "ЗаписьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-stomat-запись",
+      "modelProjection": "ЗаписьL"
+    }
+  ]
+}

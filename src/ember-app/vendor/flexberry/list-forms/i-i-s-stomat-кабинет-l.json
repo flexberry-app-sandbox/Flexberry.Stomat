@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-stomat-кабинет-e",
+  "editForm": "i-i-s-stomat-кабинет-e",
+  "external": false,
+  "caption": "Кабинет",
+  "name": "IISStomatКабинетL",
+  "className": "КабинетL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-stomat-кабинет",
+      "modelProjection": "КабинетL"
+    }
+  ]
+}

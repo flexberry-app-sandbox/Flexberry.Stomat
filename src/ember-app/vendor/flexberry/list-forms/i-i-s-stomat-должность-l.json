@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-stomat-должность-e",
+  "editForm": "i-i-s-stomat-должность-e",
+  "external": false,
+  "caption": "Должность",
+  "name": "IISStomatДолжностьL",
+  "className": "ДолжностьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-stomat-должность",
+      "modelProjection": "ДолжностьL"
+    }
+  ]
+}

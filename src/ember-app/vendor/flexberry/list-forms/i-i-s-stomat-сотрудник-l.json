@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-stomat-сотрудник-e",
+  "editForm": "i-i-s-stomat-сотрудник-e",
+  "external": false,
+  "caption": "Сотрудник",
+  "name": "IISStomatСотрудникL",
+  "className": "СотрудникL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-stomat-сотрудник",
+      "modelProjection": "СотрудникL"
+    }
+  ]
+}

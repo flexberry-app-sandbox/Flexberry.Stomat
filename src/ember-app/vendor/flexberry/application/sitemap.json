@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Stomat",
+  "applicationTitle": "Stomat",
+  "items": [
+    {
+      "link": null,
+      "menuName": "stomat",
+      "caption": "Stomat",
+      "title": "Stomat",
+      "children": [
+        {
+          "link": "i-i-s-stomat-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-stomat-кабинет-l",
+          "menuName": null,
+          "caption": "Кабинет",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-stomat-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-stomat-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-stomat-запись-l",
+          "menuName": null,
+          "caption": "Запись",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

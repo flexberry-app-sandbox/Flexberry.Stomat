@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Кабинет",
+  "name": "IISStomatКабинетE",
+  "className": "КабинетE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-stomat-кабинет",
+      "modelProjection": "КабинетE"
+    }
+  ]
+}

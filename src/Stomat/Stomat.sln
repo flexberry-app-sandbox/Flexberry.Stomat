@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stomat.Objects", "Objects/Stomat.Objects.csproj", "8dadde75-7e94-4365-9c48-80a970e3642e"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stomat.Tests", "Tests/Stomat.Tests.csproj", "d6bd9ad0-017d-46ec-945a-f2bd74525d20"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stomat.ODataBackend", "ODataBackend/Stomat.ODataBackend.csproj", "e5c4aaed-790d-44e5-ae9f-d5d5380d0c07"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stomat.IntegrationTests", "IntegrationTests/Stomat.IntegrationTests.csproj", "17ccca29-3f38-49e7-a4b3-0a6f144e70b9"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		8dadde75-7e94-4365-9c48-80a970e3642e.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		8dadde75-7e94-4365-9c48-80a970e3642e.Debug|Any CPU.Build.0 = Debug|Any CPU
+		8dadde75-7e94-4365-9c48-80a970e3642e.Release|Any CPU.ActiveCfg = Release|Any CPU
+		8dadde75-7e94-4365-9c48-80a970e3642e.Release|Any CPU.Build.0 = Release|Any CPU
+		d6bd9ad0-017d-46ec-945a-f2bd74525d20.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		d6bd9ad0-017d-46ec-945a-f2bd74525d20.Debug|Any CPU.Build.0 = Debug|Any CPU
+		d6bd9ad0-017d-46ec-945a-f2bd74525d20.Release|Any CPU.ActiveCfg = Release|Any CPU
+		d6bd9ad0-017d-46ec-945a-f2bd74525d20.Release|Any CPU.Build.0 = Release|Any CPU
+		e5c4aaed-790d-44e5-ae9f-d5d5380d0c07.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		e5c4aaed-790d-44e5-ae9f-d5d5380d0c07.Debug|Any CPU.Build.0 = Debug|Any CPU
+		e5c4aaed-790d-44e5-ae9f-d5d5380d0c07.Release|Any CPU.ActiveCfg = Release|Any CPU
+		e5c4aaed-790d-44e5-ae9f-d5d5380d0c07.Release|Any CPU.Build.0 = Release|Any CPU
+		17ccca29-3f38-49e7-a4b3-0a6f144e70b9.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		17ccca29-3f38-49e7-a4b3-0a6f144e70b9.Debug|Any CPU.Build.0 = Debug|Any CPU
+		17ccca29-3f38-49e7-a4b3-0a6f144e70b9.Release|Any CPU.ActiveCfg = Release|Any CPU
+		17ccca29-3f38-49e7-a4b3-0a6f144e70b9.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
