@@ -107,6 +107,8 @@ CREATE TABLE "ОказаниеУслуг"
 
 	"primaryKey" RAW(16) NOT NULL,
 
+	"Комментарий" NVARCHAR2(255) NULL,
+
 	"Услуга" RAW(16) NOT NULL,
 
 	"Сотрудник" RAW(16) NOT NULL,

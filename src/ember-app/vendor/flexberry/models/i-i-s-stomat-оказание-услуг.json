@@ -5,7 +5,17 @@
   "nameSpace": "IIS.Stomat",
   "parentModelName": null,
   "parentClassName": null,
-  "attrs": [],
+  "attrs": [
+    {
+      "name": "комментарий",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
   "belongsTo": [
     {
       "polymorphic": false,

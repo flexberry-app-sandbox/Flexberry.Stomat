@@ -22,6 +22,9 @@ public class OkazanieUslug {
     @Column(name = "primarykey", length = 16, unique = true, nullable = false)
     private UUID primarykey;
 
+    @Column(name = "Комментарий")
+    private String комментарий;
+
     @EdmIgnore
     @Converter(converterClass = UUIDConverter.class, name = "Usluga")
     @Convert("Usluga")
@@ -63,6 +66,14 @@ public class OkazanieUslug {
 
     public UUID getPrimarykey() {
         return primarykey;
+    }
+
+    public String getКомментарий() {
+      return комментарий;
+    }
+
+    public void setКомментарий(String комментарий) {
+      this.комментарий = комментарий;
     }
 
 

@@ -94,6 +94,8 @@ CREATE TABLE [ОказаниеУслуг] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
+	 [Комментарий] VARCHAR(255)  NULL,
+
 	 [Сотрудник] UNIQUEIDENTIFIER  NOT NULL,
 
 	 [Услуга] UNIQUEIDENTIFIER  NOT NULL,

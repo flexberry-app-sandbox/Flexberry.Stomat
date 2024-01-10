@@ -58,6 +58,7 @@ CREATE TABLE Должность (
 
 CREATE TABLE ОказаниеУслуг (
  primaryKey UUID NOT NULL,
+ Комментарий VARCHAR(255) NULL,
  Услуга UUID NOT NULL,
  Сотрудник UUID NOT NULL,
  Запись UUID NOT NULL,

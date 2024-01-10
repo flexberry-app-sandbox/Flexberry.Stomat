@@ -31,6 +31,8 @@ namespace IIS.Stomat
     public class ОказаниеУслуг : ICSSoft.STORMNET.DataObject
     {
         
+        private string fКомментарий;
+        
         private IIS.Stomat.Услуга fУслуга;
         
         private IIS.Stomat.Сотрудник fСотрудник;
@@ -41,6 +43,38 @@ namespace IIS.Stomat
 
         // *** End programmer edit section *** (ОказаниеУслуг CustomMembers)
 
+        
+        /// <summary>
+        /// Комментарий.
+        /// </summary>
+        // *** Start programmer edit section *** (ОказаниеУслуг.Комментарий CustomAttributes)
+
+        // *** End programmer edit section *** (ОказаниеУслуг.Комментарий CustomAttributes)
+        [StrLen(255)]
+        public virtual string Комментарий
+        {
+            get
+            {
+                // *** Start programmer edit section *** (ОказаниеУслуг.Комментарий Get start)
+
+                // *** End programmer edit section *** (ОказаниеУслуг.Комментарий Get start)
+                string result = this.fКомментарий;
+                // *** Start programmer edit section *** (ОказаниеУслуг.Комментарий Get end)
+
+                // *** End programmer edit section *** (ОказаниеУслуг.Комментарий Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (ОказаниеУслуг.Комментарий Set start)
+
+                // *** End programmer edit section *** (ОказаниеУслуг.Комментарий Set start)
+                this.fКомментарий = value;
+                // *** Start programmer edit section *** (ОказаниеУслуг.Комментарий Set end)
+
+                // *** End programmer edit section *** (ОказаниеУслуг.Комментарий Set end)
+            }
+        }
         
         /// <summary>
         /// ОказаниеУслуг.
