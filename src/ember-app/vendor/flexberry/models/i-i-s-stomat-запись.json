@@ -53,8 +53,8 @@
     },
     {
       "name": "типОплаты",
-      "type": "string",
-      "flexberryType": "string",
+      "type": "i-i-s-stomat-тип-оплаты",
+      "flexberryType": "ТипОплаты",
       "notNull": false,
       "defaultValue": "",
       "stored": true,

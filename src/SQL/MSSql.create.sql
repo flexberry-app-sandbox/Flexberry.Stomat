@@ -91,7 +91,7 @@ CREATE TABLE [Запись] (
 
 	 [Сумма] FLOAT  NULL,
 
-	 [ТипОплаты] VARCHAR(255)  NULL,
+	 [ТипОплаты] VARCHAR(8)  NULL,
 
 	 [Кабинет] UNIQUEIDENTIFIER  NOT NULL,
 

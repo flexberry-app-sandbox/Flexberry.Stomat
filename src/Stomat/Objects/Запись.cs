@@ -68,9 +68,9 @@ namespace IIS.Stomat
         
         private double fСумма;
         
-        private string fТипОплаты;
-        
         private string fКомментарий;
+        
+        private IIS.Stomat.ТипОплаты fТипОплаты;
         
         private IIS.Stomat.Сотрудник fСотрудник;
         
@@ -246,15 +246,14 @@ namespace IIS.Stomat
         // *** Start programmer edit section *** (Запись.ТипОплаты CustomAttributes)
 
         // *** End programmer edit section *** (Запись.ТипОплаты CustomAttributes)
-        [StrLen(255)]
-        public virtual string ТипОплаты
+        public virtual IIS.Stomat.ТипОплаты ТипОплаты
         {
             get
             {
                 // *** Start programmer edit section *** (Запись.ТипОплаты Get start)
 
                 // *** End programmer edit section *** (Запись.ТипОплаты Get start)
-                string result = this.fТипОплаты;
+                IIS.Stomat.ТипОплаты result = this.fТипОплаты;
                 // *** Start programmer edit section *** (Запись.ТипОплаты Get end)
 
                 // *** End programmer edit section *** (Запись.ТипОплаты Get end)

@@ -35,11 +35,11 @@ public class Zapis {
     @Column(name = "Сумма")
     private Double сумма;
 
-    @Column(name = "ТипОплаты")
-    private String типоплаты;
-
     @Column(name = "Комментарий")
     private String комментарий;
+
+    @Column(name = "ТипОплаты")
+    private String типоплаты;
 
     @EdmIgnore
     @Converter(converterClass = UUIDConverter.class, name = "Sotrudnik")
@@ -116,20 +116,20 @@ public class Zapis {
       this.сумма = сумма;
     }
 
-    public String getТипОплаты() {
-      return типоплаты;
-    }
-
-    public void setТипОплаты(String типоплаты) {
-      this.типоплаты = типоплаты;
-    }
-
     public String getКомментарий() {
       return комментарий;
     }
 
     public void setКомментарий(String комментарий) {
       this.комментарий = комментарий;
+    }
+
+    public String getТипОплаты() {
+      return типоплаты;
+    }
+
+    public void setТипОплаты(String типоплаты) {
+      this.типоплаты = типоплаты;
     }
 
 

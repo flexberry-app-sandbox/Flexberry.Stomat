@@ -10,7 +10,7 @@ export let Model = Mixin.create({
   кодЗаписи: DS.attr('number'),
   комментарий: DS.attr('string'),
   сумма: DS.attr('decimal'),
-  типОплаты: DS.attr('string'),
+  типОплаты: DS.attr('i-i-s-stomat-тип-оплаты'),
   кабинет: DS.belongsTo('i-i-s-stomat-кабинет', { inverse: null, async: false }),
   клиент: DS.belongsTo('i-i-s-stomat-клиент', { inverse: null, async: false }),
   сотрудник: DS.belongsTo('i-i-s-stomat-сотрудник', { inverse: null, async: false })

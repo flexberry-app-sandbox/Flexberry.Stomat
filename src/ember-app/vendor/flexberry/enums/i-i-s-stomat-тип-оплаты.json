@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Stomat",
+  "className": "ТипОплаты",
+  "enumObjects": {
+    "Наличные": "",
+    "Картой": ""
+  }
+}

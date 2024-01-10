@@ -9,6 +9,8 @@ moduleForModel('i-i-s-stomat-сотрудник', 'Unit | Serializer | i-i-s-sto
     'transform:decimal',
     'transform:guid',
 
+    'transform:i-i-s-stomat-тип-оплаты',
+
     'model:i-i-s-stomat-документы',
     'model:i-i-s-stomat-должность',
     'model:i-i-s-stomat-запись',

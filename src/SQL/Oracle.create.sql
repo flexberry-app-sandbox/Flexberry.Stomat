@@ -100,9 +100,9 @@ CREATE TABLE "Запись"
 
 	"Сумма" FLOAT(126) NULL,
 
-	"ТипОплаты" NVARCHAR2(255) NULL,
-
 	"Комментарий" NVARCHAR2(255) NULL,
+
+	"ТипОплаты" NVARCHAR2(8) NULL,
 
 	"Сотрудник" RAW(16) NOT NULL,
 
