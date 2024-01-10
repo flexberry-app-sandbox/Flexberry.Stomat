@@ -5,9 +5,11 @@
     <persistence-unit name="Olingo4PG">
         <class>Stomat.model.Sotrudnik</class>
         <class>Stomat.model.Kabinet</class>
+        <class>Stomat.model.Usluga</class>
         <class>Stomat.model.Klient</class>
         <class>Stomat.model.Dokumenty</class>
         <class>Stomat.model.Dolzhnost</class>
+        <class>Stomat.model.OkazanieUslug</class>
         <class>Stomat.model.Zapis</class>
         <class>Stomat.model.FlexberryAdvLimit</class>
         <class>Stomat.model.NewPlatformFlexberryFlexberryUserSetting</class>

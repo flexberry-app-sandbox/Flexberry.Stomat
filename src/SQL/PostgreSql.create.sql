@@ -21,6 +21,14 @@ CREATE TABLE Кабинет (
  PRIMARY KEY (primaryKey));
 
 
+CREATE TABLE Услуга (
+ primaryKey UUID NOT NULL,
+ КодУслуги INT NULL,
+ Наименование VARCHAR(255) NULL,
+ Цена DOUBLE PRECISION NULL,
+ PRIMARY KEY (primaryKey));
+
+
 CREATE TABLE Клиент (
  primaryKey UUID NOT NULL,
  КодКлиента INT NULL,
@@ -45,6 +53,13 @@ CREATE TABLE Должность (
  primaryKey UUID NOT NULL,
  КодДолжности INT NULL,
  Наименование VARCHAR(255) NULL,
+ PRIMARY KEY (primaryKey));
+
+
+CREATE TABLE ОказаниеУслуг (
+ primaryKey UUID NOT NULL,
+ Услуга UUID NOT NULL,
+ Запись UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 
 
@@ -171,6 +186,12 @@ CREATE INDEX Index52e78a286299ec0faa67b4f751a6cda2dec1a57a on Сотрудник
 
  ALTER TABLE Документы ADD CONSTRAINT FK111e3b9442d47c44d653f07cd86b5ca4ee8cace2 FOREIGN KEY (Клиент) REFERENCES Клиент; 
 CREATE INDEX Index111e3b9442d47c44d653f07cd86b5ca4ee8cace2 on Документы (Клиент); 
+
+ ALTER TABLE ОказаниеУслуг ADD CONSTRAINT FK45b90d2d6195770b9213623fdc66363b9b7bcedd FOREIGN KEY (Услуга) REFERENCES Услуга; 
+CREATE INDEX Index45b90d2d6195770b9213623fdc66363b9b7bcedd on ОказаниеУслуг (Услуга); 
+
+ ALTER TABLE ОказаниеУслуг ADD CONSTRAINT FK721cb5761827a72289939fe4000156035404240d FOREIGN KEY (Запись) REFERENCES Запись; 
+CREATE INDEX Index721cb5761827a72289939fe4000156035404240d on ОказаниеУслуг (Запись); 
 
  ALTER TABLE Запись ADD CONSTRAINT FKf5850b3b339cec39e0d339db751393dadb4d27a9 FOREIGN KEY (Сотрудник) REFERENCES Сотрудник; 
 CREATE INDEX Indexf5850b3b339cec39e0d339db751393dadb4d27a9 on Запись (Сотрудник); 

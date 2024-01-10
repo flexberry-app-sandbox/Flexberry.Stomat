@@ -1,9 +1,9 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('i-i-s-stomat-должность', 'Unit | Serializer | i-i-s-stomat-должность', {
+moduleForModel('i-i-s-stomat-услуга', 'Unit | Serializer | i-i-s-stomat-услуга', {
   // Specify the other units that are required for this test.
   needs: [
-    'serializer:i-i-s-stomat-должность',
+    'serializer:i-i-s-stomat-услуга',
     'service:syncer',
     'transform:file',
     'transform:decimal',

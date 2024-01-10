@@ -78,6 +78,8 @@ namespace IIS.Stomat
         
         private IIS.Stomat.Клиент fКлиент;
         
+        private IIS.Stomat.DetailArrayOfОказаниеУслуг fОказаниеУслуг;
+        
         // *** Start programmer edit section *** (Запись CustomMembers)
 
         // *** End programmer edit section *** (Запись CustomMembers)
@@ -370,6 +372,41 @@ namespace IIS.Stomat
                 // *** Start programmer edit section *** (Запись.Сотрудник Set end)
 
                 // *** End programmer edit section *** (Запись.Сотрудник Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Запись.
+        /// </summary>
+        // *** Start programmer edit section *** (Запись.ОказаниеУслуг CustomAttributes)
+
+        // *** End programmer edit section *** (Запись.ОказаниеУслуг CustomAttributes)
+        public virtual IIS.Stomat.DetailArrayOfОказаниеУслуг ОказаниеУслуг
+        {
+            get
+            {
+                // *** Start programmer edit section *** (Запись.ОказаниеУслуг Get start)
+
+                // *** End programmer edit section *** (Запись.ОказаниеУслуг Get start)
+                if ((this.fОказаниеУслуг == null))
+                {
+                    this.fОказаниеУслуг = new IIS.Stomat.DetailArrayOfОказаниеУслуг(this);
+                }
+                IIS.Stomat.DetailArrayOfОказаниеУслуг result = this.fОказаниеУслуг;
+                // *** Start programmer edit section *** (Запись.ОказаниеУслуг Get end)
+
+                // *** End programmer edit section *** (Запись.ОказаниеУслуг Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (Запись.ОказаниеУслуг Set start)
+
+                // *** End programmer edit section *** (Запись.ОказаниеУслуг Set start)
+                this.fОказаниеУслуг = value;
+                // *** Start programmer edit section *** (Запись.ОказаниеУслуг Set end)
+
+                // *** End programmer edit section *** (Запись.ОказаниеУслуг Set end)
             }
         }
         

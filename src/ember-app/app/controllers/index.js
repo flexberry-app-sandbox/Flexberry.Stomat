@@ -22,31 +22,31 @@ export default Controller.extend({
             link: 'i-i-s-stomat-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.stomat.i-i-s-stomat-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.stomat.i-i-s-stomat-сотрудник-l.title'),
-            icon: 'file',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-stomat-кабинет-l',
             caption: i18n.t('forms.application.sitemap.stomat.i-i-s-stomat-кабинет-l.caption'),
             title: i18n.t('forms.application.sitemap.stomat.i-i-s-stomat-кабинет-l.title'),
-            icon: 'phone',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-stomat-клиент-l',
             caption: i18n.t('forms.application.sitemap.stomat.i-i-s-stomat-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.stomat.i-i-s-stomat-клиент-l.title'),
-            icon: 'tags',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-stomat-должность-l',
             caption: i18n.t('forms.application.sitemap.stomat.i-i-s-stomat-должность-l.caption'),
             title: i18n.t('forms.application.sitemap.stomat.i-i-s-stomat-должность-l.title'),
-            icon: 'suitcase',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-stomat-запись-l',
             caption: i18n.t('forms.application.sitemap.stomat.i-i-s-stomat-запись-l.caption'),
             title: i18n.t('forms.application.sitemap.stomat.i-i-s-stomat-запись-l.title'),
-            icon: 'tags',
+            icon: 'calendar',
             children: null
           }]
         }

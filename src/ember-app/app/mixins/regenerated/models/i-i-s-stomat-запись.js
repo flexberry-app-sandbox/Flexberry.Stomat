@@ -13,7 +13,8 @@ export let Model = Mixin.create({
   типОплаты: DS.attr('i-i-s-stomat-тип-оплаты'),
   кабинет: DS.belongsTo('i-i-s-stomat-кабинет', { inverse: null, async: false }),
   клиент: DS.belongsTo('i-i-s-stomat-клиент', { inverse: null, async: false }),
-  сотрудник: DS.belongsTo('i-i-s-stomat-сотрудник', { inverse: null, async: false })
+  сотрудник: DS.belongsTo('i-i-s-stomat-сотрудник', { inverse: null, async: false }),
+  оказаниеУслуг: DS.hasMany('i-i-s-stomat-оказание-услуг', { inverse: 'запись', async: false })
 });
 
 export let ValidationRules = {
@@ -75,6 +76,13 @@ export let ValidationRules = {
     validators: [
       validator('ds-error'),
       validator('presence', true),
+    ],
+  },
+  оказаниеУслуг: {
+    descriptionKey: 'models.i-i-s-stomat-запись.validations.оказаниеУслуг.__caption__',
+    validators: [
+      validator('ds-error'),
+      validator('has-many'),
     ],
   },
 };

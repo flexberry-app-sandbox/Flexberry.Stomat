@@ -16,7 +16,9 @@ import IISStomatДолжностьModel from './models/i-i-s-stomat-должно
 import IISStomatЗаписьModel from './models/i-i-s-stomat-запись';
 import IISStomatКабинетModel from './models/i-i-s-stomat-кабинет';
 import IISStomatКлиентModel from './models/i-i-s-stomat-клиент';
+import IISStomatОказаниеУслугModel from './models/i-i-s-stomat-оказание-услуг';
 import IISStomatСотрудникModel from './models/i-i-s-stomat-сотрудник';
+import IISStomatУслугаModel from './models/i-i-s-stomat-услуга';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
@@ -28,7 +30,9 @@ $.extend(true, translations, {
     'i-i-s-stomat-запись': IISStomatЗаписьModel,
     'i-i-s-stomat-кабинет': IISStomatКабинетModel,
     'i-i-s-stomat-клиент': IISStomatКлиентModel,
-    'i-i-s-stomat-сотрудник': IISStomatСотрудникModel
+    'i-i-s-stomat-оказание-услуг': IISStomatОказаниеУслугModel,
+    'i-i-s-stomat-сотрудник': IISStomatСотрудникModel,
+    'i-i-s-stomat-услуга': IISStomatУслугаModel
   },
 
   'application-name': 'Stomat',

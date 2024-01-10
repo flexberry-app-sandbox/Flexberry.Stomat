@@ -1,0 +1,30 @@
+﻿{
+  "name": "IISStomatОказаниеУслуг",
+  "modelName": "i-i-s-stomat-оказание-услуг",
+  "className": "ОказаниеУслуг",
+  "nameSpace": "IIS.Stomat",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "услуга",
+      "relatedTo": "i-i-s-stomat-услуга",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "запись",
+      "relatedTo": "i-i-s-stomat-запись",
+      "inverse": "оказаниеУслуг"
+    }
+  ],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

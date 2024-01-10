@@ -84,7 +84,13 @@
       "inverse": null
     }
   ],
-  "hasMany": [],
+  "hasMany": [
+    {
+      "name": "оказаниеУслуг",
+      "relatedTo": "i-i-s-stomat-оказание-услуг",
+      "inverse": "запись"
+    }
+  ],
   "projections": [
     {
       "name": "ЗаписьE",
