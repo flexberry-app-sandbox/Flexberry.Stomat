@@ -10,6 +10,13 @@
     {
       "polymorphic": false,
       "presence": true,
+      "name": "сотрудник",
+      "relatedTo": "i-i-s-stomat-сотрудник",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
       "name": "услуга",
       "relatedTo": "i-i-s-stomat-услуга",
       "inverse": null

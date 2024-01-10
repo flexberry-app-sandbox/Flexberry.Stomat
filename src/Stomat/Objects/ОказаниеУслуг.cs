@@ -33,12 +33,48 @@ namespace IIS.Stomat
         
         private IIS.Stomat.Услуга fУслуга;
         
+        private IIS.Stomat.Сотрудник fСотрудник;
+        
         private IIS.Stomat.Запись fЗапись;
         
         // *** Start programmer edit section *** (ОказаниеУслуг CustomMembers)
 
         // *** End programmer edit section *** (ОказаниеУслуг CustomMembers)
 
+        
+        /// <summary>
+        /// ОказаниеУслуг.
+        /// </summary>
+        // *** Start programmer edit section *** (ОказаниеУслуг.Сотрудник CustomAttributes)
+
+        // *** End programmer edit section *** (ОказаниеУслуг.Сотрудник CustomAttributes)
+        [PropertyStorage(new string[] {
+                "Сотрудник"})]
+        [NotNull()]
+        public virtual IIS.Stomat.Сотрудник Сотрудник
+        {
+            get
+            {
+                // *** Start programmer edit section *** (ОказаниеУслуг.Сотрудник Get start)
+
+                // *** End programmer edit section *** (ОказаниеУслуг.Сотрудник Get start)
+                IIS.Stomat.Сотрудник result = this.fСотрудник;
+                // *** Start programmer edit section *** (ОказаниеУслуг.Сотрудник Get end)
+
+                // *** End programmer edit section *** (ОказаниеУслуг.Сотрудник Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (ОказаниеУслуг.Сотрудник Set start)
+
+                // *** End programmer edit section *** (ОказаниеУслуг.Сотрудник Set start)
+                this.fСотрудник = value;
+                // *** Start programmer edit section *** (ОказаниеУслуг.Сотрудник Set end)
+
+                // *** End programmer edit section *** (ОказаниеУслуг.Сотрудник Set end)
+            }
+        }
         
         /// <summary>
         /// ОказаниеУслуг.

@@ -11,9 +11,9 @@ CREATE TABLE "Сотрудник"
 
 	"Фамилия" NVARCHAR2(255) NULL,
 
-	"Отчество" NVARCHAR2(255) NULL,
-
 	"Имя" NVARCHAR2(255) NULL,
+
+	"Отчество" NVARCHAR2(255) NULL,
 
 	"НомерТелефона" NUMBER(10) NULL,
 
@@ -108,6 +108,8 @@ CREATE TABLE "ОказаниеУслуг"
 	"primaryKey" RAW(16) NOT NULL,
 
 	"Услуга" RAW(16) NOT NULL,
+
+	"Сотрудник" RAW(16) NOT NULL,
 
 	"Запись" RAW(16) NOT NULL,
 
@@ -354,6 +356,11 @@ ALTER TABLE "ОказаниеУслуг"
 	ADD CONSTRAINT "ОказаниеУслуг_778" FOREIGN KEY ("Услуга") REFERENCES "Услуга" ("primaryKey");
 
 CREATE INDEX "ОказаниеУслу_4955" on "ОказаниеУслуг" ("Услуга");
+
+ALTER TABLE "ОказаниеУслуг"
+	ADD CONSTRAINT "ОказаниеУслу_5018" FOREIGN KEY ("Сотрудник") REFERENCES "Сотрудник" ("primaryKey");
+
+CREATE INDEX "ОказаниеУслу_3136" on "ОказаниеУслуг" ("Сотрудник");
 
 ALTER TABLE "ОказаниеУслуг"
 	ADD CONSTRAINT "ОказаниеУслу_6961" FOREIGN KEY ("Запись") REFERENCES "Запись" ("primaryKey");

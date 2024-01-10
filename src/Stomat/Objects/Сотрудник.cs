@@ -54,9 +54,9 @@ namespace IIS.Stomat
         
         private string fФамилия;
         
-        private string fОтчество;
-        
         private string fИмя;
+        
+        private string fОтчество;
         
         private int fНомерТелефона;
         

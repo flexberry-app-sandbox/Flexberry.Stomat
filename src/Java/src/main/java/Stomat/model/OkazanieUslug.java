@@ -33,6 +33,16 @@ public class OkazanieUslug {
     private Usluga usluga;
 
     @EdmIgnore
+    @Converter(converterClass = UUIDConverter.class, name = "Sotrudnik")
+    @Convert("Sotrudnik")
+    @Column(name = "Сотрудник", length = 16, unique = true, nullable = false)
+    private UUID _sotrudnikid;
+
+    @ManyToOne(optional = false, fetch = FetchType.LAZY)
+    @JoinColumn(name = "Sotrudnik", insertable = false, updatable = false)
+    private Sotrudnik sotrudnik;
+
+    @EdmIgnore
     @Converter(converterClass = UUIDConverter.class, name = "Zapis")
     @Convert("Zapis")
     @Column(name = "Запись", length = 16, unique = true, nullable = false)

@@ -29,11 +29,11 @@ public class Sotrudnik {
     @Column(name = "Фамилия")
     private String фамилия;
 
-    @Column(name = "Отчество")
-    private String отчество;
-
     @Column(name = "Имя")
     private String имя;
+
+    @Column(name = "Отчество")
+    private String отчество;
 
     @Column(name = "НомерТелефона")
     private Integer номертелефона;
@@ -80,20 +80,20 @@ public class Sotrudnik {
       this.фамилия = фамилия;
     }
 
-    public String getОтчество() {
-      return отчество;
-    }
-
-    public void setОтчество(String отчество) {
-      this.отчество = отчество;
-    }
-
     public String getИмя() {
       return имя;
     }
 
     public void setИмя(String имя) {
       this.имя = имя;
+    }
+
+    public String getОтчество() {
+      return отчество;
+    }
+
+    public void setОтчество(String отчество) {
+      this.отчество = отчество;
     }
 
     public Integer getНомерТелефона() {
